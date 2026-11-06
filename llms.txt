@@ -1,10 +1,10 @@
 # Fovano
 
-> Aplicativo para Windows de seleção (culling), edição, retoque e entrega de fotos para fotógrafos. Roda no computador e é grátis; as funções com IA são opcionais, usam a chave do próprio fotógrafo (OpenRouter ou fal.ai) e mostram o custo antes de cada ação. Grava estrelas, cores, estilo e recorte em XMP para o Lightroom. Versão 0.2.0 (05/11/2026).
+> Aplicativo para Windows de seleção (culling), edição, retoque e entrega de fotos para fotógrafos. Roda no computador e é grátis; as funções com IA são opcionais, usam a chave do próprio fotógrafo (OpenRouter ou fal.ai) e mostram o custo antes de cada ação. Grava estrelas, cores, estilo e recorte em XMP para o Lightroom. Versão 0.3.0 (06/11/2026).
 
 ## Funções
 - [Seleção de fotos](https://fovano-downloads.vercel.app/funcoes/selecao-de-fotos): Separe as melhores de um ensaio ou evento em minutos. A análise roda no seu computador e não custa nada; a IA é opcional.
-- [Presets e ajustes](https://fovano-downloads.vercel.app/funcoes/presets-e-ajustes): Presets, ajustes manuais, lente, perspectiva, LUTs e igualar à referência, com prévia antes e depois. Tudo no computador.
+- [Presets e ajustes](https://fovano-downloads.vercel.app/funcoes/presets-e-ajustes): Edite no RAW, sem sair do Fovano: presets, ajustes manuais, edição automática em lote, lente, perspectiva, LUTs e igualar à referência. Tudo no computador.
 - [Perfil de estilo](https://fovano-downloads.vercel.app/funcoes/perfil-de-estilo): O Fovano aprende como você edita no Lightroom e grava o mesmo visual no XMP das fotos novas.
 - [Recorte e endireitar](https://fovano-downloads.vercel.app/funcoes/recorte-e-endireitar): Enquadre retratos pelos rostos, nos formatos de cada destino, e endireite o horizonte. Gravado no XMP, sem mexer nos pixels.
 - [Retoque de pele](https://fovano-downloads.vercel.app/funcoes/retoque-de-pele): Corrija manchas e suavize a pele no computador, de graça, ou use a IA com o custo mostrado antes, escolhendo quais rostos entram.

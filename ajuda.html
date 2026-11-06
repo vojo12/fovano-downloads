@@ -15,7 +15,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://fovano-downloads.vercel.app/ajuda">
 <meta property="og:image" content="https://fovano-downloads.vercel.app/img/biblioteca.webp">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O Fovano substitui o Lightroom?","acceptedAnswer":{"@type":"Answer","text":"Não. Seleciona, organiza, aplica estilo e retoques, e grava XMP para você continuar no Lightroom."}},{"@type":"Question","name":"Funciona sem internet e sem IA?","acceptedAnswer":{"@type":"Answer","text":"Sim. Tudo o que tem o selo Local roda no computador, sem chave e sem internet."}},{"@type":"Question","name":"Quais formatos abre? Revela RAW?","acceptedAnswer":{"@type":"Answer","text":"Abre RAW (CR3, CR2, NEF, ARW, RAF, DNG…), JPEG, TIFF e HEIC. Na exportação \"Revelar com a edição\", revela o RAW pelo LightCraft; a lupa e os retoques usam a prévia JPEG que a câmera grava no RAW."}},{"@type":"Question","name":"O que acontece com as minhas fotos quando uso IA?","acceptedAnswer":{"@type":"Answer","text":"Vai só uma prévia reduzida ou o recorte da área editada, para o serviço da sua chave. Os originais ficam no seu disco. Veja a página de privacidade."}},{"@type":"Question","name":"Por que o Windows mostra um aviso ao instalar?","acceptedAnswer":{"@type":"Answer","text":"O instalador ainda não tem assinatura digital. Clique em \"Mais informações\" e em \"Executar assim mesmo\"."}},{"@type":"Question","name":"Onde ficam o catálogo e as chaves? Como desinstalar sem perder o catálogo?","acceptedAnswer":{"@type":"Answer","text":"Em %APPDATA%\\PhotoWM. Desinstalar mantém essa pasta; para apagar tudo, apague-a."}},{"@type":"Question","name":"Como desfazer uma seleção automática?","acceptedAnswer":{"@type":"Answer","text":"Na janela da seleção automática, \"Desfazer último culling\". A classificação à mão desfaz com Ctrl+Z e refaz com Ctrl+Shift+Z."}},{"@type":"Question","name":"Como o cliente escolhe as fotos?","acceptedAnswer":{"@type":"Answer","text":"Exporte uma galeria para o cliente: ele marca as favoritas e devolve a lista, que você cola em Seleção › Importar a seleção do cliente."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Dá para fazer tudo no Fovano, sem o Lightroom?","acceptedAnswer":{"@type":"Answer","text":"Sim: selecionar, editar no RAW, retocar e entregar. Quem prefere terminar no Lightroom leva estrelas, cores, estilo e recorte pelo XMP."}},{"@type":"Question","name":"Funciona sem internet e sem IA?","acceptedAnswer":{"@type":"Answer","text":"Sim. Tudo o que tem o selo Local roda no computador, sem chave e sem internet."}},{"@type":"Question","name":"Quais formatos abre? Revela RAW?","acceptedAnswer":{"@type":"Answer","text":"Abre RAW (CR3, CR2, NEF, ARW, RAF, DNG…), JPEG, TIFF e HEIC. A edição, os retoques e a exportação revelam o RAW pelo LightCraft. Conferido com Canon (CR2 e CR3); outras marcas ainda não foram testadas."}},{"@type":"Question","name":"O que acontece com as minhas fotos quando uso IA?","acceptedAnswer":{"@type":"Answer","text":"Vai só uma prévia reduzida ou o recorte da área editada, para o serviço da sua chave. Os originais ficam no seu disco. Veja a página de privacidade."}},{"@type":"Question","name":"Por que o Windows mostra um aviso ao instalar?","acceptedAnswer":{"@type":"Answer","text":"O instalador ainda não tem assinatura digital. Clique em \"Mais informações\" e em \"Executar assim mesmo\"."}},{"@type":"Question","name":"Onde ficam o catálogo e as chaves? Como desinstalar sem perder o catálogo?","acceptedAnswer":{"@type":"Answer","text":"Em %APPDATA%\\PhotoWM. Desinstalar mantém essa pasta; para apagar tudo, apague-a."}},{"@type":"Question","name":"Como desfazer uma seleção automática?","acceptedAnswer":{"@type":"Answer","text":"Na janela da seleção automática, \"Desfazer último culling\". A classificação à mão desfaz com Ctrl+Z e refaz com Ctrl+Shift+Z."}},{"@type":"Question","name":"Como o cliente escolhe as fotos?","acceptedAnswer":{"@type":"Answer","text":"Exporte uma galeria para o cliente: ele marca as favoritas e devolve a lista, que você cola em Seleção › Importar a seleção do cliente."}}]}</script>
 </head>
 <body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -39,7 +39,7 @@
 <section class="block alt" id="instalar"><div class="narrow">
   <h2>Instalar e começar</h2>
   <ol class="steps">
-    <li><a href="/baixar">Baixe</a> e rode <code>Fovano-Setup-0.2.0.exe</code>. No aviso do Windows, <strong>Mais informações › Executar assim mesmo</strong>.</li>
+    <li><a href="/baixar">Baixe</a> e rode <code>Fovano-Setup-0.3.0.exe</code>. No aviso do Windows, <strong>Mais informações › Executar assim mesmo</strong>.</li>
     <li>Importe a pasta do trabalho: <strong>Importar fotos</strong> no Início, ou <kbd>Ctrl+I</kbd>. Os arquivos ficam onde estão.</li>
     <li>Selecione: <strong>Seleção automática</strong> no alto, ou classifique com <kbd>0</kbd>–<kbd>5</kbd>, <kbd>P</kbd> e <kbd>X</kbd>.</li>
     <li>Edite e retoque na aba <strong>Edição</strong>; entregue em <strong>Exportar</strong>.</li>
@@ -71,7 +71,8 @@
     <tr><td><kbd>F</kbd></td><td>Tela cheia (<kbd>L</kbd> segue a última foto, <kbd>I</kbd> esconde as informações)</td></tr>
     <tr><td><kbd>O</kbd></td><td>Olhos de cada rosto em 100%</td></tr>
     <tr><td><kbd>B</kbd></td><td>Pincel de classificação</td></tr>
-    <tr><td><kbd>Ctrl+Shift+V</kbd></td><td>Colar o último ajuste</td></tr>
+    <tr><td><kbd>D</kbd> · <kbd>\</kbd></td><td>Editar a foto · com e sem a edição</td></tr>
+    <tr><td><kbd>Ctrl+Shift+V</kbd></td><td>Colar a última edição</td></tr>
     <tr><td><kbd>Ctrl+F</kbd></td><td>Buscar</td></tr>
     <tr><td><kbd>F6</kbd></td><td>Mostrar ou recolher o painel</td></tr>
     <tr><td><kbd>F1</kbd></td><td>Todos os atalhos no app</td></tr>
@@ -89,21 +90,21 @@
   </table></div>
 </div></section>
 <section class="block"><div class="narrow faq"><h2>Perguntas frequentes</h2>
-<details><summary>O Fovano substitui o Lightroom?</summary><p>Não. Seleciona, organiza, aplica estilo e retoques, e grava XMP para você continuar no Lightroom.</p></details>
+<details><summary>Dá para fazer tudo no Fovano, sem o Lightroom?</summary><p>Sim: selecionar, editar no RAW, retocar e entregar. Quem prefere terminar no Lightroom leva estrelas, cores, estilo e recorte pelo XMP.</p></details>
 <details><summary>Funciona sem internet e sem IA?</summary><p>Sim. Tudo o que tem o selo Local roda no computador, sem chave e sem internet.</p></details>
-<details><summary>Quais formatos abre? Revela RAW?</summary><p>Abre RAW (CR3, CR2, NEF, ARW, RAF, DNG…), JPEG, TIFF e HEIC. Na exportação "Revelar com a edição", revela o RAW pelo LightCraft; a lupa e os retoques usam a prévia JPEG que a câmera grava no RAW.</p></details>
+<details><summary>Quais formatos abre? Revela RAW?</summary><p>Abre RAW (CR3, CR2, NEF, ARW, RAF, DNG…), JPEG, TIFF e HEIC. A edição, os retoques e a exportação revelam o RAW pelo LightCraft. Conferido com Canon (CR2 e CR3); outras marcas ainda não foram testadas.</p></details>
 <details><summary>O que acontece com as minhas fotos quando uso IA?</summary><p>Vai só uma prévia reduzida ou o recorte da área editada, para o serviço da sua chave. Os originais ficam no seu disco. Veja a página de privacidade.</p></details>
 <details><summary>Por que o Windows mostra um aviso ao instalar?</summary><p>O instalador ainda não tem assinatura digital. Clique em "Mais informações" e em "Executar assim mesmo".</p></details>
 <details><summary>Onde ficam o catálogo e as chaves? Como desinstalar sem perder o catálogo?</summary><p>Em %APPDATA%\PhotoWM. Desinstalar mantém essa pasta; para apagar tudo, apague-a.</p></details>
 <details><summary>Como desfazer uma seleção automática?</summary><p>Na janela da seleção automática, "Desfazer último culling". A classificação à mão desfaz com Ctrl+Z e refaz com Ctrl+Shift+Z.</p></details>
 <details><summary>Como o cliente escolhe as fotos?</summary><p>Exporte uma galeria para o cliente: ele marca as favoritas e devolve a lista, que você cola em Seleção › Importar a seleção do cliente.</p></details>
-<p class="trust">Respostas revisadas em 05/11/2026, na versão 0.2.0.</p></div></section>
+<p class="trust">Respostas revisadas em 06/11/2026, na versão 0.3.0.</p></div></section>
 </main>
 <footer class="site-footer"><div class="wrap">
   <div><img src="/fovano.svg" alt="Fovano" width="110" height="28"><p>Seleção, edição e entrega para fotógrafos, no seu computador. A IA é opcional e mostra o custo antes.</p>
-    <p class="trust">Atualizado em 05/11/2026 · versão 0.2.0 · resultados variam conforme a foto.</p></div>
+    <p class="trust">Atualizado em 06/11/2026 · versão 0.3.0 · resultados variam conforme a foto.</p></div>
   <div><h3>Produto</h3><a href="/funcoes">Funções</a><a href="/custos">Custos</a><a href="/novidades">Novidades</a><a href="/baixar">Baixar</a></div>
-  <div><h3>Confiança</h3><a href="/privacidade">Privacidade</a><a href="/Fovano-Setup-0.2.0.exe.sha256">SHA-256 do instalador</a><a href="https://github.com/vojo12/fovano-downloads/releases/tag/v0.2.0">Notas no GitHub</a></div>
+  <div><h3>Confiança</h3><a href="/privacidade">Privacidade</a><a href="/Fovano-Setup-0.3.0.exe.sha256">SHA-256 do instalador</a><a href="https://github.com/vojo12/fovano-downloads/releases/tag/v0.3.0">Notas no GitHub</a></div>
   <div><h3>Ajuda</h3><a href="/ajuda">Guia e perguntas</a><a href="/ajuda#atalhos">Atalhos</a><a href="/ajuda#instalar">Instalar</a></div>
 </div></footer>
 </body>

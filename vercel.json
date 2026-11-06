@@ -5,7 +5,7 @@
   "redirects": [
     {
       "source": "/download",
-      "destination": "https://github.com/vojo12/fovano-downloads/releases/download/v0.2.0/Fovano-Setup-0.2.0.exe",
+      "destination": "https://github.com/vojo12/fovano-downloads/releases/download/v0.3.0/Fovano-Setup-0.3.0.exe",
       "permanent": false
     }
   ],

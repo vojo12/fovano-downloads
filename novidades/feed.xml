@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Novidades do Fovano</title>
+<link href="https://fovano-downloads.vercel.app/novidades"/>
+<link rel="self" href="https://fovano-downloads.vercel.app/novidades/feed.xml"/>
+<id>https://fovano-downloads.vercel.app/novidades</id>
+<updated>2026-11-05T12:00:00Z</updated>
+<entry><title>Fovano 0.2.0</title><link href="https://fovano-downloads.vercel.app/novidades#v0.2.0"/><id>https://fovano-downloads.vercel.app/novidades#v0.2.0</id><updated>2026-11-05T12:00:00Z</updated>
+<summary>Igualar à referência; Retoque de rosto sem IA; Capítulos do evento; Receitas e captura conectada; Galeria para o cliente; Lente e perspectiva; Retoque com IA rosto a rosto; Trocar fundo; Coleções e rejeitadas; Pedir à IA em lote; Exportação completa; Custos antes de cada ação</summary></entry>
+<entry><title>Fovano 0.1.0</title><link href="https://fovano-downloads.vercel.app/novidades#v0.1.0"/><id>https://fovano-downloads.vercel.app/novidades#v0.1.0</id><updated>2026-10-31T12:00:00Z</updated>
+<summary>Nova identidade Fovano; Trabalhos, biblioteca e comparação; Atalhos e acessibilidade</summary></entry>
+</feed>

@@ -1,0 +1,21 @@
+# Fovano
+
+> Aplicativo para Windows de seleção (culling), edição, retoque e entrega de fotos para fotógrafos. Roda no computador e é grátis; as funções com IA são opcionais, usam a chave do próprio fotógrafo (OpenRouter ou fal.ai) e mostram o custo antes de cada ação. Grava estrelas, cores, estilo e recorte em XMP para o Lightroom. Versão 0.2.0 (05/11/2026).
+
+## Funções
+- [Seleção de fotos](https://fovano-downloads.vercel.app/funcoes/selecao-de-fotos): Separe as melhores de um ensaio ou evento em minutos. A análise roda no seu computador e não custa nada; a IA é opcional.
+- [Presets e ajustes](https://fovano-downloads.vercel.app/funcoes/presets-e-ajustes): Presets, ajustes manuais, lente, perspectiva, LUTs e igualar à referência, com prévia antes e depois. Tudo no computador.
+- [Perfil de estilo](https://fovano-downloads.vercel.app/funcoes/perfil-de-estilo): O Fovano aprende como você edita no Lightroom e grava o mesmo visual no XMP das fotos novas.
+- [Recorte e endireitar](https://fovano-downloads.vercel.app/funcoes/recorte-e-endireitar): Enquadre retratos pelos rostos, nos formatos de cada destino, e endireite o horizonte. Gravado no XMP, sem mexer nos pixels.
+- [Retoque de pele](https://fovano-downloads.vercel.app/funcoes/retoque-de-pele): Corrija manchas e suavize a pele no computador, de graça, ou use a IA com o custo mostrado antes, escolhendo quais rostos entram.
+- [Remover objeto](https://fovano-downloads.vercel.app/funcoes/remover-objeto): Marque a área e remova sem IA, de graça, ou com IA, com o valor da área marcada no botão.
+- [Remover e trocar fundo](https://fovano-downloads.vercel.app/funcoes/remover-e-trocar-fundo): Recorte as pessoas num PNG transparente ou ponha sobre uma cor, o próprio fundo desfocado ou outra imagem.
+- [Pedir à IA](https://fovano-downloads.vercel.app/funcoes/pedir-a-ia): Escreva em português o que quer mudar. A IA monta um plano com as ferramentas do Fovano e mostra o custo de cada passo antes de aplicar.
+- [Exportação e entrega](https://fovano-downloads.vercel.app/funcoes/exportacao-e-entrega): Exportação revelada com nome por modelo e marca d'água, folha de contatos, galeria para o cliente escolher e receitas que editam cada foto que chega da câmera.
+
+## Páginas
+- [Baixar](https://fovano-downloads.vercel.app/baixar): download direto, requisitos e SHA-256
+- [Custos](https://fovano-downloads.vercel.app/custos): o que é grátis e quanto custa cada ação com IA
+- [Privacidade](https://fovano-downloads.vercel.app/privacidade): o que fica no computador e o que é enviado
+- [Novidades](https://fovano-downloads.vercel.app/novidades): notas de versão
+- [Ajuda](https://fovano-downloads.vercel.app/ajuda): instalar, atalhos, Lightroom e perguntas

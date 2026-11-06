@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6f6f3">
+<title>Privacidade no Fovano: o que fica no computador e o que vai para a nuvem</title>
+<meta name="description" content="Sem chave de IA, nada sai do seu computador. Com IA, vai só uma prévia reduzida ou o recorte da área editada, para o serviço que você escolheu.">
+<link rel="canonical" href="https://fovano-downloads.vercel.app/privacidade">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="alternate" type="application/atom+xml" title="Novidades do Fovano" href="/novidades/feed.xml">
+<meta property="og:title" content="Privacidade no Fovano: o que fica no computador e o que vai para a nuvem">
+<meta property="og:description" content="Sem chave de IA, nada sai do seu computador. Com IA, vai só uma prévia reduzida ou o recorte da área editada, para o serviço que você escolheu.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fovano-downloads.vercel.app/privacidade">
+<meta property="og:image" content="https://fovano-downloads.vercel.app/img/biblioteca.webp">
+
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="/" aria-label="Fovano, início"><img src="/fovano.svg" alt="Fovano" width="118" height="30"></a>
+  <nav class="nav" aria-label="Principal">
+    <details class="menu"><summary>Funções</summary><div class="menu-panel"><div><h3>Importar e selecionar</h3><a href="/funcoes/selecao-de-fotos">Seleção de fotos</a><a href="/funcoes#comparar">Comparar e escolher</a><a href="/funcoes#organizar">Capítulos e coleções</a><a href="/funcoes#busca">Busca</a></div><div><h3>Editar</h3><a href="/funcoes/presets-e-ajustes">Presets e ajustes</a><a href="/funcoes/perfil-de-estilo">Perfil de estilo</a><a href="/funcoes/recorte-e-endireitar">Recorte e endireitar</a></div><div><h3>Retocar</h3><a href="/funcoes/retoque-de-pele">Retoque de pele</a><a href="/funcoes/remover-objeto">Remover objeto</a><a href="/funcoes/remover-e-trocar-fundo">Remover e trocar fundo</a><a href="/funcoes/pedir-a-ia">Pedir à IA</a></div><div><h3>Entregar</h3><a href="/funcoes/exportacao-e-entrega">Exportação e entrega</a><a href="/funcoes#lightroom">Lightroom e XMP</a></div><a class="all" href="/funcoes">Todas as funções →</a></div></details>
+    <a href="/custos">Custos</a>
+    <a href="/privacidade" aria-current="page">Privacidade</a>
+    <a href="/novidades">Novidades</a>
+    <a href="/ajuda">Ajuda</a>
+  </nav>
+  <a class="btn small header-cta" href="/baixar">Baixar</a>
+</div></header>
+<main id="conteudo">
+<section class="hero"><div class="narrow">
+  <p class="eyebrow">Privacidade</p>
+  <h1>Suas fotos ficam no seu computador</h1>
+  <p class="lead">O Fovano não tem conta, servidor nem nuvem própria. Sem chave de IA, nada sai do computador. Com IA, vai só o necessário, para o serviço que você escolheu.</p>
+</div></section>
+<section class="block alt"><div class="wrap">
+  <div class="table-wrap"><table class="wrap-first">
+    <tr><th>Função</th><th>Onde roda</th><th>O que é enviado</th><th>Para quem</th></tr>
+    <tr><td>Seleção, organização, cor, retoques sem IA, recorte, exportação, galeria</td><td>No computador</td><td>Nada</td><td>—</td></tr>
+    <tr><td>Busca por frase</td><td>OpenRouter</td><td>Prévia reduzida de cada foto, uma vez</td><td>OpenRouter e o provedor do modelo de busca</td></tr>
+    <tr><td>Seleção com IA, Pedir à IA, nomes dos capítulos</td><td>OpenRouter</td><td>Prévia de 512 a 1.024 px</td><td>OpenRouter e o provedor do modelo (Anthropic, OpenAI ou Google, conforme a escolha)</td></tr>
+    <tr><td>Retocar pele, remover objeto, edições do Pedir à IA</td><td>fal.ai ou OpenRouter</td><td>Recorte da área editada ou a foto reduzida a 2.048 px</td><td>fal.ai ou OpenRouter; no fal.ai, os arquivos enviados e gerados expiram em 1 hora</td></tr>
+    <tr><td>Remover e trocar fundo</td><td>fal.ai</td><td>Prévia de até 2.048 px</td><td>fal.ai</td></tr>
+  </table></div>
+  <p class="trust">Quanto tempo cada provedor guarda os dados segue a política dele; consulte no site do OpenRouter e do fal.ai.</p>
+</div></section>
+<section class="block"><div class="narrow">
+  <h2>No seu computador</h2>
+  <ul>
+    <li>As chaves de IA ficam criptografadas pelo Windows; só os quatro últimos caracteres aparecem no app.</li>
+    <li>O catálogo, as miniaturas e as prévias ficam em <code>%APPDATA%\PhotoWM</code>. Para apagar tudo, feche o app e apague essa pasta.</li>
+    <li>Os originais nunca mudam: classificação vai para o XMP, edições viram arquivos novos ao lado.</li>
+    <li>O detector de rostos só localiza rostos para posicionar os retoques; não identifica pessoas.</li>
+    <li>As fotos da galeria do cliente saem sem metadados, nem GPS. Na exportação, dá para tirar a localização.</li>
+  </ul>
+  <div class="note"><p>Sem selos de certificação: o Fovano é um aplicativo local e não guarda dados em servidor próprio.</p></div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <div><img src="/fovano.svg" alt="Fovano" width="110" height="28"><p>Seleção, edição e entrega para fotógrafos, no seu computador. A IA é opcional e mostra o custo antes.</p>
+    <p class="trust">Atualizado em 05/11/2026 · versão 0.2.0 · resultados variam conforme a foto.</p></div>
+  <div><h3>Produto</h3><a href="/funcoes">Funções</a><a href="/custos">Custos</a><a href="/novidades">Novidades</a><a href="/baixar">Baixar</a></div>
+  <div><h3>Confiança</h3><a href="/privacidade">Privacidade</a><a href="/Fovano-Setup-0.2.0.exe.sha256">SHA-256 do instalador</a><a href="https://github.com/vojo12/fovano-downloads/releases/tag/v0.2.0">Notas no GitHub</a></div>
+  <div><h3>Ajuda</h3><a href="/ajuda">Guia e perguntas</a><a href="/ajuda#atalhos">Atalhos</a><a href="/ajuda#instalar">Instalar</a></div>
+</div></footer>
+</body>
+</html>

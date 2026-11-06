@@ -1,11 +1,11 @@
-# Fovano — distribuição
+# Fovano — site e distribuição
 
-Canal público de download do Fovano para Windows. Contém a página estática de distribuição; o código do aplicativo permanece no projeto privado local.
+Site público do Fovano (https://fovano-downloads.vercel.app) e canal de download para Windows. As páginas são geradas
+pelo projeto do aplicativo (`site/build.mjs`); o código do aplicativo permanece no projeto privado.
 
-- `index.html`: página de download, sem dependências ou build.
-- `vercel.json`: redireciona `/download` ao instalador publicado nas Releases.
-- `Fovano-Setup-0.1.0.exe.sha256`: integridade do instalador.
+- `index.html`, `baixar.html`, `funcoes/`, `custos.html`, `privacidade.html`, `novidades.html`, `ajuda.html`: páginas estáticas, sem JavaScript.
+- `vercel.json`: endereços limpos, `/download` para o instalador da Release atual e a política de segurança.
+- `Fovano-Setup-0.2.0.exe.sha256`: integridade do instalador da versão atual (as anteriores ficam para conferência).
 
-O instalador é um asset da Release `v0.1.0`, fora do histórico Git por exceder o limite de 100 MiB por arquivo. A Vercel está conectada à branch `main`; futuros pushes publicam a página automaticamente.
-
-Para publicar outra versão, envie o novo instalador e checksum a uma Release, atualize o redirecionamento e os dados da página e faça push para `main`.
+Os instaladores ficam nos assets das Releases, fora do histórico Git, por excederem o limite de 100 MiB por arquivo.
+A Vercel está conectada à branch `main`: cada push publica o site.

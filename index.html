@@ -1,38 +1,100 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#f6f6f3">
-  <meta name="description" content="Download do Fovano para Windows. Seleção, organização e ajustes para fotógrafos.">
-  <title>Fovano — Download para Windows</title>
-  <link rel="icon" href="/favicon.png" type="image/png">
-  <style>
-    :root{color-scheme:light;font-family:Inter,"Segoe UI",Arial,sans-serif;color:#171819;background:#f6f6f3}
-    *{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;padding:40px 24px}
-    main{width:100%;max-width:600px}.logo{width:172px;height:auto;display:block;margin-bottom:64px}
-    .eyebrow{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#606468}
-    h1{font-size:clamp(36px,7vw,54px);line-height:1.09;letter-spacing:-.045em;font-weight:600;margin:16px 0 24px}
-    .intro{font-size:18px;line-height:1.6;color:#606468;max-width:460px;margin:0 0 32px}
-    .download{display:inline-flex;align-items:center;gap:12px;padding:16px 24px;border-radius:12px;background:#171819;color:#fff;text-decoration:none;font-size:16px;font-weight:600}
-    .download:hover{background:#36393c}a:focus-visible{outline:3px solid #4663e8;outline-offset:5px}
-    .details{font-size:13px;color:#606468;line-height:1.8;margin:16px 0 40px}
-    footer{border-top:1px solid #dddeda;padding-top:22px;font-size:13px;line-height:1.8;color:#606468;display:flex;gap:12px 24px;flex-wrap:wrap}
-    footer a{color:inherit;text-underline-offset:4px}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6f6f3">
+<title>Fovano — seleção e edição de fotos para fotógrafos, no seu computador</title>
+<meta name="description" content="Importe, selecione, edite e entregue ensaios e eventos inteiros no computador. Grátis; a IA é opcional e mostra o custo antes.">
+<link rel="canonical" href="https://fovano-downloads.vercel.app">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="alternate" type="application/atom+xml" title="Novidades do Fovano" href="/novidades/feed.xml">
+<meta property="og:title" content="Fovano — seleção e edição de fotos para fotógrafos, no seu computador">
+<meta property="og:description" content="Importe, selecione, edite e entregue ensaios e eventos inteiros no computador. Grátis; a IA é opcional e mostra o custo antes.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fovano-downloads.vercel.app">
+<meta property="og:image" content="https://fovano-downloads.vercel.app/img/biblioteca.webp">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Fovano","operatingSystem":"Windows 10, Windows 11","applicationCategory":"MultimediaApplication","softwareVersion":"0.2.0","dateModified":"2026-11-05","downloadUrl":"https://fovano-downloads.vercel.app/download","fileSize":"184 MB","offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"},"description":"Seleção, edição e entrega de fotos para fotógrafos, no computador. IA opcional, com o custo mostrado antes."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O Fovano substitui o Lightroom?","acceptedAnswer":{"@type":"Answer","text":"Não. Ele seleciona, organiza, aplica estilo, retoca e entrega, e grava estrelas, cores, estilo e recorte no XMP para você continuar no Lightroom."}},{"@type":"Question","name":"Funciona sem internet e sem IA?","acceptedAnswer":{"@type":"Answer","text":"Sim. Seleção, organização, cor, retoques sem IA, recorte, exportação e galeria rodam no computador. Sem chave de IA, nada sai do computador."}},{"@type":"Question","name":"Quanto custa?","acceptedAnswer":{"@type":"Answer","text":"O Fovano é grátis. As funções com IA usam a sua chave do OpenRouter ou do fal.ai e custam centavos por ação; o valor aparece antes de cada uma."}},{"@type":"Question","name":"Quais formatos abre?","acceptedAnswer":{"@type":"Answer","text":"RAW (CR3, CR2, NEF, ARW, RAF, DNG e outros), JPEG, TIFF e HEIC. Os arquivos ficam na pasta de origem."}},{"@type":"Question","name":"O que acontece com as minhas fotos quando uso IA?","acceptedAnswer":{"@type":"Answer","text":"Vai só uma prévia reduzida ou o recorte da área editada, para o serviço que você escolheu. O original nunca sai do computador."}},{"@type":"Question","name":"Por que o Windows avisa ao instalar?","acceptedAnswer":{"@type":"Answer","text":"Porque o instalador ainda não tem assinatura digital. Clique em \"Mais informações\" e em \"Executar assim mesmo\"; o SHA-256 permite conferir o arquivo."}}]}</script>
 </head>
 <body>
-  <main>
-    <img class="logo" src="/fovano.svg" alt="Fovano" width="172" height="48">
-    <p class="eyebrow">Fovano para Windows</p>
-    <h1>Mais espaço<br>para suas fotos.</h1>
-    <p class="intro">Seleção, organização e ajustes em uma interface feita para o seu trabalho como fotógrafo.</p>
-    <a class="download" href="/download">Baixar para Windows <span aria-hidden="true">↓</span></a>
-    <p class="details">Versão 0.1.0 · Windows 64 bits · 184 MB<br>Instalador .exe · Download público e direto</p>
-    <footer>
-      <a href="/Fovano-Setup-0.1.0.exe.sha256">Verificar integridade (SHA-256)</a>
-      <a href="https://github.com/vojo12/fovano-downloads/releases/tag/v0.1.0">Notas da versão</a>
-    </footer>
-  </main>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="/" aria-label="Fovano, início"><img src="/fovano.svg" alt="Fovano" width="118" height="30"></a>
+  <nav class="nav" aria-label="Principal">
+    <details class="menu"><summary>Funções</summary><div class="menu-panel"><div><h3>Importar e selecionar</h3><a href="/funcoes/selecao-de-fotos">Seleção de fotos</a><a href="/funcoes#comparar">Comparar e escolher</a><a href="/funcoes#organizar">Capítulos e coleções</a><a href="/funcoes#busca">Busca</a></div><div><h3>Editar</h3><a href="/funcoes/presets-e-ajustes">Presets e ajustes</a><a href="/funcoes/perfil-de-estilo">Perfil de estilo</a><a href="/funcoes/recorte-e-endireitar">Recorte e endireitar</a></div><div><h3>Retocar</h3><a href="/funcoes/retoque-de-pele">Retoque de pele</a><a href="/funcoes/remover-objeto">Remover objeto</a><a href="/funcoes/remover-e-trocar-fundo">Remover e trocar fundo</a><a href="/funcoes/pedir-a-ia">Pedir à IA</a></div><div><h3>Entregar</h3><a href="/funcoes/exportacao-e-entrega">Exportação e entrega</a><a href="/funcoes#lightroom">Lightroom e XMP</a></div><a class="all" href="/funcoes">Todas as funções →</a></div></details>
+    <a href="/custos">Custos</a>
+    <a href="/privacidade">Privacidade</a>
+    <a href="/novidades">Novidades</a>
+    <a href="/ajuda">Ajuda</a>
+  </nav>
+  <a class="btn small header-cta" href="/baixar">Baixar</a>
+</div></header>
+<main id="conteudo">
+<section class="hero"><div class="wrap">
+  <p class="eyebrow">Fovano para Windows · versão 0.2.0</p>
+  <h1>Importe. Selecione.<br>Edite. Entregue.</h1>
+  <p class="lead">Seleção, edição e entrega para fotógrafos, no seu computador. Grátis por padrão; a IA é opcional e mostra o custo antes de cada ação.</p>
+  <div class="actions"><a class="btn" href="/download">Baixar para Windows ↓</a><a class="btn ghost" href="/funcoes">Ver funções</a></div>
+  <p class="meta-line">Windows 10 ou 11, 64 bits · 184 MB · grátis · <a href="/baixar">detalhes do download</a></p>
+  <div class="shot"><img src="/img/biblioteca.webp" alt="A biblioteca do Fovano com as fotos de um trabalho e o painel de classificação" width="1440" height="900" fetchpriority="high"></div>
+  <p class="privacy-note">As fotos das capturas estão desfocadas: são de um trabalho real e não temos autorização para publicá-las.</p>
+</div></section>
+
+<section class="block alt"><div class="wrap">
+  <div class="section-head"><h2>Do cartão à entrega, num lugar só</h2><p>Quatro etapas, as mesmas do seu dia. Cada ferramenta diz se roda no computador ou usa IA.</p></div>
+  <div class="grid two">
+    <a class="card" href="/funcoes/selecao-de-fotos"><div class="shot"><img src="/img/selecao-automatica.webp" alt="Janela da seleção automática com os níveis" width="1440" height="900" loading="lazy"></div><span class="step-num">1</span><h3>Selecionar</h3><p>Foco, olhos, exposição e repetidas analisados no computador, com níveis e prévia na hora. <span class="badge local">Local</span></p></a>
+    <a class="card" href="/funcoes/presets-e-ajustes"><div class="shot"><img src="/img/igualar.webp" alt="Igualar à referência com prévia antes e depois" width="1440" height="900" loading="lazy"></div><span class="step-num">2</span><h3>Editar</h3><p>Presets, ajustes, lente, perspectiva e igualar à referência, com antes e depois. <span class="badge local">Local</span></p></a>
+    <a class="card" href="/funcoes/retoque-de-pele"><div class="shot"><img src="/img/retoque-rosto.webp" alt="Retoque de rosto sem IA com prévia" width="1440" height="900" loading="lazy"></div><span class="step-num">3</span><h3>Retocar</h3><p>Pele, manchas, olhos e objetos sem IA; com IA quando precisa, com o custo antes. <span class="badge local">Local</span> <span class="badge cloud">IA na nuvem</span></p></a>
+    <a class="card" href="/funcoes/exportacao-e-entrega"><div class="shot"><img src="/img/galeria.webp" alt="Exportação com a opção de galeria para o cliente" width="1440" height="900" loading="lazy"></div><span class="step-num">4</span><h3>Entregar</h3><p>Exportação revelada, folha de contatos e galeria para o cliente escolher as favoritas. <span class="badge local">Local</span></p></a>
+  </div>
+</div></section>
+
+<section class="block dark"><div class="wrap">
+  <div class="section-head"><h2>Local primeiro</h2><p>O que dá para fazer bem no computador, roda no computador. A IA entra só quando você pede, e você vê quanto custa.</p></div>
+  <div class="bento">
+    <div class="tile wide"><h3>Roda no seu computador <span class="badge local">Local</span></h3><p>Sem custo por foto e sem enviar a foto.</p><ul><li>Seleção automática, comparar, pincel e grupos</li><li>Capítulos, coleções, busca por dados</li><li>Presets, ajustes, lente, perspectiva, LUTs e igualar</li><li>Retoque de rosto, manchas, olhos vermelhos, remover objeto</li><li>Recorte, endireitar, exportação, galeria e receitas</li></ul></div>
+    <div class="tile wide"><h3>Usa IA, e quanto custa <span class="badge cloud">IA na nuvem</span></h3><p>Com a sua chave do OpenRouter ou do fal.ai; o valor aparece antes.</p><ul><li>Seleção com IA: cerca de US$ 0,32 por 1.000 fotos</li><li>Retocar pele: cerca de US$ 0,023 por foto</li><li>Remover objeto: cerca de US$ 0,031 por área</li><li>Remover ou trocar fundo: cerca de US$ 0,0006 por foto</li><li>Nomear capítulos: menos de US$ 0,001 por trabalho</li></ul></div>
+    <div class="tile"><h3>O original nunca muda</h3><p>Classificação, estilo e recorte vão para o XMP; edições criam um arquivo novo ao lado.</p></div>
+    <div class="tile"><h3>Custo antes de gastar</h3><p>Cada botão pago mostra a estimativa; o gasto real fica registrado nas Configurações.</p></div>
+    <div class="tile"><h3>Chaves suas, guardadas no Windows</h3><p>As chaves ficam criptografadas no seu computador. <a href="/privacidade">Privacidade</a></p></div>
+  </div>
+</div></section>
+
+<section class="block"><div class="wrap">
+  <div class="feature"><div><h2>Feito para continuar no Lightroom</h2><p>Estrelas, cores, rejeitadas, perfil de estilo, recorte e ângulo vão pelo XMP, que o Lightroom lê com "Ler metadados dos arquivos". O Fovano não tenta substituir o seu editor: ele faz a parte repetitiva antes.</p><p><a href="/ajuda#lightroom">Como levar para o Lightroom</a></p></div>
+  <figure><div class="shot"><img src="/img/painel-edicao.webp" alt="O painel de edição do Fovano, organizado por tarefa, com selos No computador e Pago por uso" width="1440" height="900" loading="lazy" decoding="async"></div></figure></div>
+  <div class="feature flip"><div><h2>Captura conectada pela pasta</h2><p>Use o programa da sua câmera gravando numa pasta. Com a pasta monitorada e uma receita ligada a ela, cada foto que chega já recebe o ajuste, e a tela cheia mostra a última para o cliente.</p><p><a href="/funcoes/exportacao-e-entrega">Receitas e entrega</a></p></div>
+  <figure><div class="shot"><img src="/img/tela-cheia.webp" alt="A tela cheia do Fovano seguindo a última foto que chegou" width="1440" height="900" loading="lazy" decoding="async"></div></figure></div>
+</div></section>
+
+<section class="block alt"><div class="wrap">
+  <div class="section-head"><h2>Novidades da versão 0.2.0</h2><p>Atualizado em 05/11/2026. <a href="/novidades">Todas as novidades</a></p></div>
+  <div class="grid three"><div class="card"><h3>Igualar à referência</h3><p>A cor e a luz de uma foto levadas para as outras da mesma cena.</p><p class="mt-s"><span class="badge local">Local</span></p></div><div class="card"><h3>Retoque de rosto sem IA</h3><p>Pele, brilho, olheiras e olhos, com prévia, em lote.</p><p class="mt-s"><span class="badge local">Local</span></p></div><div class="card"><h3>Capítulos do evento</h3><p>O trabalho dividido pelas pausas entre as fotos; a IA pode dar nome a cada um.</p><p class="mt-s"><span class="badge local">Local</span> <span class="badge cloud">IA na nuvem</span></p></div></div>
+</div></section>
+
+<section class="block"><div class="wrap center">
+  <h2>Experimente no seu próximo trabalho</h2>
+  <p class="lead">Grátis, sem conta e sem cadastro. Windows 10 ou 11, 64 bits.</p>
+  <a class="btn" href="/download">Baixar para Windows ↓</a>
+</div></section>
+<section class="block"><div class="narrow faq"><h2>Perguntas frequentes</h2>
+<details><summary>O Fovano substitui o Lightroom?</summary><p>Não. Ele seleciona, organiza, aplica estilo, retoca e entrega, e grava estrelas, cores, estilo e recorte no XMP para você continuar no Lightroom.</p></details>
+<details><summary>Funciona sem internet e sem IA?</summary><p>Sim. Seleção, organização, cor, retoques sem IA, recorte, exportação e galeria rodam no computador. Sem chave de IA, nada sai do computador.</p></details>
+<details><summary>Quanto custa?</summary><p>O Fovano é grátis. As funções com IA usam a sua chave do OpenRouter ou do fal.ai e custam centavos por ação; o valor aparece antes de cada uma.</p></details>
+<details><summary>Quais formatos abre?</summary><p>RAW (CR3, CR2, NEF, ARW, RAF, DNG e outros), JPEG, TIFF e HEIC. Os arquivos ficam na pasta de origem.</p></details>
+<details><summary>O que acontece com as minhas fotos quando uso IA?</summary><p>Vai só uma prévia reduzida ou o recorte da área editada, para o serviço que você escolheu. O original nunca sai do computador.</p></details>
+<details><summary>Por que o Windows avisa ao instalar?</summary><p>Porque o instalador ainda não tem assinatura digital. Clique em "Mais informações" e em "Executar assim mesmo"; o SHA-256 permite conferir o arquivo.</p></details>
+<p class="trust">Respostas revisadas em 05/11/2026, na versão 0.2.0.</p></div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <div><img src="/fovano.svg" alt="Fovano" width="110" height="28"><p>Seleção, edição e entrega para fotógrafos, no seu computador. A IA é opcional e mostra o custo antes.</p>
+    <p class="trust">Atualizado em 05/11/2026 · versão 0.2.0 · resultados variam conforme a foto.</p></div>
+  <div><h3>Produto</h3><a href="/funcoes">Funções</a><a href="/custos">Custos</a><a href="/novidades">Novidades</a><a href="/baixar">Baixar</a></div>
+  <div><h3>Confiança</h3><a href="/privacidade">Privacidade</a><a href="/Fovano-Setup-0.2.0.exe.sha256">SHA-256 do instalador</a><a href="https://github.com/vojo12/fovano-downloads/releases/tag/v0.2.0">Notas no GitHub</a></div>
+  <div><h3>Ajuda</h3><a href="/ajuda">Guia e perguntas</a><a href="/ajuda#atalhos">Atalhos</a><a href="/ajuda#instalar">Instalar</a></div>
+</div></footer>
 </body>
 </html>
